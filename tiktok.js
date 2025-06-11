@@ -26,7 +26,13 @@ async function checkTikTokLive() {
         body: JSON.stringify({
           username: 'TikTok Live Alert',
           avatar_url: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/TikTok_logo.svg',
-          content: `🎉 **${tiktokUsername} is now LIVE on TikTok!**\n🎥 Watch here: https://www.tiktok.com/@${tiktokUsername}/live`
+          content: `🎥 زون بلّش البث على تيكتوك!  
+✨ فوتوا شاركوه اللايف وخلي الأجواء تولّع  
+🔗 https://www.tiktok.com/@${tiktokUsername}/live
+
+🎥 Zone just went LIVE on TikTok!  
+✨ Tap in and join the vibe — we’re live now!  
+🔗 https://www.tiktok.com/@${tiktokUsername}/live`
         })
       });
     }
