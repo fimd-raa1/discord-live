@@ -24,7 +24,7 @@ async function checkKickLive() {
 
 📢 Zone is now LIVE on Kick!  
 🔥 Join the stream and vibe with us  
-🎮 https://kick.com/${kickUsername}`
+🎮 https://kick.com/${kickUsername}
 **\n🎮 Watch here: https://kick.com/${kickUsername}`
         })
       });
