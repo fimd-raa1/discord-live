@@ -18,7 +18,14 @@ async function checkKickLive() {
         body: JSON.stringify({
           username: 'Kick Live Alert',
           avatar_url: 'https://kick.com/favicon.ico',
-          content: `📢 **ZoneGaming86 is now LIVE on Kick!**\n🎮 Watch here: https://kick.com/${kickUsername}`
+          content: `📢 زون هلّق لايف عالكيك!  
+🔥 فوتوا شاركوه البث واستمتعوا بالأجواء  
+🎮 https://kick.com/${kickUsername}
+
+📢 Zone is now LIVE on Kick!  
+🔥 Join the stream and vibe with us  
+🎮 https://kick.com/${kickUsername}`
+**\n🎮 Watch here: https://kick.com/${kickUsername}`
         })
       });
     }
